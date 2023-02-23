@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ccc6ee;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerForLogin">
+   <children>
+      <Label id="title" fx:id="Header" layoutX="29.0" layoutY="26.0" text="SIMPLY">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label id="Title" fx:id="header" alignment="CENTER" layoutX="256.0" layoutY="135.0" prefHeight="27.0" prefWidth="88.0" text="LOGIN" />
+      <TextField id="usernameField" fx:id="UsernameTextField" layoutX="194.0" layoutY="169.0" prefHeight="39.0" prefWidth="272.0" />
+      <TextField id="passwordField" fx:id="PasswordTextField" layoutX="194.0" layoutY="217.0" prefHeight="39.0" prefWidth="272.0" />
+      <Label id="username-label" fx:id="UsernameLabel" layoutX="93.0" layoutY="175.0" text="Username" />
+      <Label id="password-label" fx:id="PasswordLabel" layoutX="96.0" layoutY="223.0" text="Password" />
+      <Label id="location-label" fx:id="LocationLabel" layoutX="93.0" layoutY="273.0" text="Location" />
+      <Button id="login-button" fx:id="LoginButton" layoutX="222.0" layoutY="341.0" mnemonicParsing="false" onAction="#loginButton" text="Login" />
+      <Button fx:id="cancelButtonField" layoutX="192.0" layoutY="158.0" mnemonicParsing="false" onAction="#cancelButton" text="Exit" />
+      <Label fx:id="Description" layoutX="29.0" layoutY="84.0" text="AN APPOINTMENT SCHEDULING APPLICATION" />
+      <Label fx:id="LocationField" layoutX="197.0" layoutY="273.0" text="Location" />
+      <Label id="location-label" fx:id="TimeZoneLabel" layoutX="93.0" layoutY="306.0" text="Time Zone" />
+      <Label fx:id="TimeZoneField" layoutX="197.0" layoutY="306.0" text="Tim1eZone" />
+   </children>
+</AnchorPane>
